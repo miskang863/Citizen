@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "45815852989",
+    "firebase_url": "https://citizen-7c192-default-rtdb.firebaseio.com",
+    "project_id": "citizen-7c192",
+    "storage_bucket": "citizen-7c192.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45815852989:android:4a8f4d01940a3379916cd4",
+        "android_client_info": {
+          "package_name": "com.example.citizen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45815852989-8svst1dm6cmdrmlemd3ce4vm6vjjnk00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD86julu_jZevV1_CKdPopihEAIKzJkXLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45815852989-8svst1dm6cmdrmlemd3ce4vm6vjjnk00.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "45815852989-u7ccklaglft1amu8j027pf59gniapq66.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.citizen"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

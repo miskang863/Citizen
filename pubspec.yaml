@@ -1,0 +1,107 @@
+name: citizen
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  firebase_core: ^1.0.2
+  firebase_auth: ^1.0.1
+  day_night_switch: ^0.0.2+1
+  provider: ^5.0.0
+  shared_preferences: ^2.0.5
+  day_night_switcher: ^0.2.0+1
+  flutter_pw_validator: ^1.0.1
+  google_maps_flutter: ^2.0.1
+  geolocator: ^7.0.1
+  sliding_up_panel: ^1.0.2
+  flutter_easyloading: ^3.0.0
+  firebase_database: ^6.1.1
+  font_awesome_flutter: ^9.0.0
+  http: ^0.13.1
+  strings: ^0.2.1
+  location: ^4.1.1
+  flutter_svg: ^0.21.0+1
+  drag_select_grid_view: ^0.4.0
+  latlong: ^0.6.1
+  webview_flutter: ^2.0.2
+  intl: ^0.17.0
+  expansion_card: ^0.1.0
+  google_fonts: ^2.0.0
+  flutter_slidable: ^0.6.0
+  polyline: ^1.0.2
+  flutter_polyline_points: ^0.2.6
+  show_up_animation: ^1.0.2
+  easy_localization: ^3.0.0
+  auto_size_text: ^2.1.0
+  flash: ^1.5.1
+  data_connection_checker: ^0.3.4
+  clippy_flutter: ^1.1.1
+  location_permissions: ^3.0.0
+  app_settings: ^4.1.0
+
+
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_native_splash: ^1.1.7+1
+
+flutter_native_splash:
+  image: Assets/Icons/citizen_icon.png
+  color: "#1E88E5"
+  color_dark: "#2B3A58"
+  android: true
+  ios: true
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - Assets/Icons/
+    - Assets/Pictures/
+    - Assets/Locales/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+
+  fonts:
+    - family: KiwiMaru
+      fonts:
+        - asset: Assets/Fonts/KiwiMaru-Light.ttf
+        - asset: Assets/Fonts/KiwiMaru-Medium.ttf
+        - asset: Assets/Fonts/KiwiMaru-Regular.ttf
+          weight: 700
+
+    - family: JosefinSans
+      fonts:
+        - asset: Assets/Fonts/JosefinSans-Light.ttf
+        - asset: Assets/Fonts/JosefinSans-Medium.ttf
+        - asset: Assets/Fonts/JosefinSans-Regular.ttf
+        - asset: Assets/Fonts/JosefinSans-Thin.ttf
+          weight: 500
+
