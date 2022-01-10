@@ -15,9 +15,6 @@ This project was offered and co-supervised by Metropolia and Nokia.
 
 Download or clone this repo by using the link below:
 
-```
-https://gitlab.com/kirillar/citizen.git
-```
 
 **Step 2:**
 
